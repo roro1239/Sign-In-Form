@@ -1,0 +1,104 @@
+:root{
+    --main-color: rgb(126,189,172);
+    --txt:rgb(185, 185, 185);
+}
+fieldset{
+    border: var(--main-color) 2px solid;
+}
+legend{
+    font-size:25px;
+}
+legend, label{
+    color:var(--main-color);
+    font-weight: 600;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    color:var(--txt);
+  }
+.container{
+    display:flex;
+    background:black;
+}
+.leftSection{
+    position: relative;
+}
+.background{
+    width:40vw;
+    min-width:345px;
+    height: 100vh;
+}
+
+.leftSection p{
+    position: absolute;
+    bottom:0;
+    left:28vw;
+    font-size:14px;
+}
+.rightSection{
+    margin-top: 10vh;
+    padding-left:50px;
+   
+}
+/*Section One*/
+.sectionOne p{
+    width:800px;
+    font-size:30px;
+    font-weight:800;
+    margin-bottom: 8vh;
+}
+/*Section Two*/
+.form-control-row{
+    display:flex;
+    gap:96px;
+    margin-bottom:12px;
+}
+.form-control-col{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 8px;
+    width:15vw;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+input:focus:valid{
+    border: 2px solid rgb(0, 183, 255);
+}
+input:focus:invalid{
+    border: 2px solid rgb(255, 69, 100)
+}
+
+/*Section Three*/
+button{
+    margin-top:50px;
+    width:200px;
+    height: 50px;
+    font-size:22px;
+    font-weight: 600;
+    background-color: black;
+    border:2px solid rgb(126,189,172);
+    color: rgb(126,189,172);
+}
+button:hover{
+    background-color:rgb(126,189,172);
+    color:black;
+    border:2px solid rgb(126,189,172);
+}
+.sectionThree p{
+font-size:20px;
+}
+.sectionThree a{
+    color:rgb(126,189,172);
+    text-decoration: none;
+}
+.sectionThree a:hover{
+    color:white;
+}

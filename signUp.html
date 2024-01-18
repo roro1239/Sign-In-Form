@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="leftSection">
+            <img class="background" src="luke-stackpoole-5Qqkjn4PFPA-unsplash.jpg" alt="northern lights">
+            <p>Photo by Luke Stackpoole on Unsplash</p>
+        </div>
+        <div class="rightSection">
+            <div class="sectionOne">
+                <p>This is not a real online service! You know you need somthing like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You know you want to.</p>
+            </div>
+            <div class="sectionTwo">
+                
+                <form action="#" method="get" id="a-form">
+                    <fieldset id="set">
+                        <legend>Let's do this </legend>
+                   
+                    <div class="form-control-row">
+                        <div class="form-control-col">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="form-control-col">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                </div>
+                    <div class="form-control-row">
+                        <div class="form-control-col">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>   
+                    <div class="form-control-col">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" pattern="\d{3}-\d{3}-\d{4}" required>
+                    </div>
+                    </div>
+                    <div class="form-control-row">
+                        <div class="form-control-col">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                        <div class="form-control-col">
+                        <label for="confirmPass">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPass" name="confirmPass" required>
+                        </div>
+                    </div>
+                </fieldset>
+                </form>
+            </div>
+            
+           <div class="sectionThree">
+            <button type="submit" form="a-form" id="btnCreate">Create Account</button>
+            <p>Already have an account?<a href="#"> Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
